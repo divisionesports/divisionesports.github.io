@@ -181,19 +181,19 @@
                           method="POST">
                             <ul>
 							    <div class="kode-section-title" name="Persönlich"> <h2>Persönlich:</h2> </div>
-								<li><input type="text" id="vorname" name="vorname" class="required" placeholder="Vorname *"></li>
-								<li><input type="text" id="Nachname" name="Nachname" class="required" placeholder="Nachname *"></li>								
-								<li><input type="text" id="Email" name="Email" class="required email" placeholder="Email *"></li>
-                                <li><input type="date" name="Geburtstag" placeholder="Dein Geburtstdatum">&nbsp&nbsp Dein Geburtstdatum</textarea></li>
+								<li><input type="text" id="vorname" name="vorname" class="required" placeholder="Vorname *"required></li>
+								<li><input type="text" id="Nachname" name="Nachname" class="required" placeholder="Nachname *"required></li>								
+								<li><input type="text" id="Email" name="Email" class="required email" placeholder="Email *"required></li>
+                                <li><input type="date" name="Geburtstag" placeholder="Dein Geburtstdatum"required>&nbsp&nbsp Dein Geburtstdatum</textarea></li>
 							    <div class="kode-section-title" name="Steam:"> <h2>Steam:</h2> </div>
-								<li><input type="text" id="steamname" name="steamname" class="required" placeholder="Steamname *"></li>
-								<li><input type="text" id="steamprofillink" name="steamprofillink" class="required" placeholder="Steamprofil Link *"></li>
+								<li><input type="text" id="steamname" name="steamname" class="required" placeholder="Steamname *"required></li>
+								<li><input type="text" id="steamprofillink" name="steamprofillink" class="required" placeholder="Steamprofil Link *"required></li>
 								<li><p>Hast du einen Vacban?</p>
 								<input type="checkbox" name="Vacban Ja" value="Vacban">Ja   
 								<input type="checkbox" name="Vacban Nein" value="Vacban"> Nein</li><br>
                                 <div class="kode-section-title" name="Csgo"> <h2>CSGO:</h2> </div>
-								<li><input type="text" id="CSGO-Rank" name="CSGO-Rank" class="required" placeholder="CSGO-Rank *"></li>
-								<li><input type="text" id="Spielstunden" name="Spielstunden" class="required" placeholder="Spielstunden *"></li>								
+								<li><input type="text" id="CSGO-Rank" name="CSGO-Rank" class="required" placeholder="CSGO-Rank *"required></li>
+								<li><input type="text" id="Spielstunden" name="Spielstunden" class="required" required placeholder="Spielstunden *"></li>								
 								<li><p>Prime Status</p>
 								<input type="checkbox" name="Prime-Status Ja" value="Prime-Status Ja">Ja   
 								<input type="checkbox" name="Prime-Status Nein" value="Prime-Status Nein"> Nein</li><br>
@@ -202,16 +202,19 @@
 								<li><input type="text" id="Eseaprofillink" name="Eseaprofillink"  placeholder="Esea Profil "></li>
 								<li><input type="text" id="Eslprofillink" name="Eslprofillink"  placeholder="Esl Profil "></li>								
                                 <div class="kode-section-title" name="Fragen"> <h2>Fragen:</h2> </div>
-                                <div><p>Erfahrung mit anderen Organisationen?</p>								
-								<div><li><input type="text" name="andere Organisationen" id="andere Organisationen" placeholder="Falls ja, bitte einige nennen!"></textarea></li>							
+                                <div><p>Erfahrung mit anderen Organisationen?required</p>								
+								<div><li><input type="text" name="andere Organisationen" id="andere Organisationen" placeholder="Falls ja, bitte einige nennen!"required></textarea></li>							
                                 <div><p>Wie hoch ist deine Aktivität?</p>								
-								<div><li><input type="text" name="aktivität" id="aktivität" placeholder="Sehr Hoch, Mittel, Niedrig..."></textarea></li>								
+								<div><li><input type="text" name="aktivität" id="aktivität" placeholder="Sehr Hoch, Mittel, Niedrig..."required></textarea></li>								
                                 <div><p>Wie bist du auf uns gekommen?</p>		
-								<div><li><input type="text" name="gefunden durch:" id="gefunden durch:" placeholder="Wie kommst du auf unsere Organisation?"></textarea></li>	
+								<div><li><input type="text" name="gefunden durch:" id="gefunden durch:" placeholder="Wie kommst du auf unsere Organisation?"required></textarea></li>	
                                 <div><p>Wieso möchtest du uns beitreten?</p>								
-								<div><li><textarea type="text" name="Beitritsgrund" id="Beitritsgrund" placeholder="Warum du uns beitreten willst"></textarea></li>		
+								<div><li><textarea type="text" name="Beitritsgrund" id="Beitritsgrund" placeholder="Warum du uns beitreten willst"required></textarea></li>		
                                 <div><p>Warum sollten wir dich annehmen </p>								
-								<div><li><textarea type="text" name="Annahmegrund" id="Annahmegrund" placeholder="Warum wir dich annehmen sollten"></textarea></li>										
+								<div><li><textarea type="text" name="Annahmegrund" id="Annahmegrund" placeholder="Warum wir dich annehmen sollten" required></textarea></li>										
+								 <div> <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" required>
+                                <label for="subscribeNews">Ich Akzeptiere hiermit <strong><a target="0_blank" href="regeln.html">die Allgemeinen Benutzerregeln / AGB´s</strong></label></a>
+                                 </div>
 								<li><input class="thbg-color" type="submit" value="senden"></li>
 								</li>
                             </ul>
